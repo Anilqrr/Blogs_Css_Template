@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(3, 3, 43);
+}
+nav{
+    /* background-color: black; */
+    color: white;
+    height: 7vh;
+    display: flex;
+    border: 0.1em solid white;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+nav .logo img{
+    height: 6vh;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 0px 7px;
+    /* padding:0px 10px; */
+}
+nav ul{
+    display: flex;
+    /* justify-content: right; */
+    position: relative;
+    left: 800px;
+    right: 0px;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    /* justify-content: right; */
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+}
+nav .search{
+    /* margin-right: 100px; */
+    padding:10px;
+    position: relative;
+    right: 80px;
+}
+nav .search #text{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 20px;
+    width: 400px;
+    position: relative;
+}
+nav .search button img{
+    position: absolute;
+    top: 9px;
+    right: 30px;
+    height: 25px;
+    width: 25px; 
+}
+/* nav .search # */
+
+.categorys{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-column-gap: 25px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.categorys .box{
+    background-color: rgb(6, 40, 80);
+    width: 210px;
+    height: 320px;
+    border-radius: 20px;
+    border: 1PX solid white;
+    margin-top: 10px;
+}
+.categorys .box .info img{
+    margin-top: 7px;
+    margin-left: 5px;
+    height: 300px;
+    width: 200px;
+    /* border: 2px solid ; */
+    border-radius: 30px;
+}
+.categorys .box .info h3{
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+    left: 45px;
+    color: rgb(59, 87, 211);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 108px;
+    justify-content: center;
+}
+.container .box{
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    background-color: rgb(4, 32, 65);
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    /* color: black; */
+}
+.container .box .b-img img{
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    height: 200px;
+    width: 500px;
+}
+.container .box .desc p{
+    /* background-color: antiquewhite; */
+    color: antiquewhite;
+    height: 100px;
+    width: 500px;
+}
+.container .author{
+    display: flex;
+    /* padding: 50px 0px; */
+    position: relative;
+    bottom: 20px;
+    /* background-color: blanchedalmond; */
+    color: aliceblue;
+    height: 50px;
+    width: 500px;
+}
+.container .author img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+.container .author h3{
+    position: relative;
+    top: 30px;
+    padding:0px 20px;
+}
+.container .author h4{
+  /* margin-left: 500px; */
+  position: relative;
+  top: 30px;
+  left: 200px;
+}
+
+#about{
+    /* background-color: #fff; */
+    /* background: url('images/about.jpg') no-repeat; */
+    margin: 20px 350px;
+    /* justify-content: center; */
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    background-image: url('images/about.jpg');
+    color: azure;
+}
+#about h1{
+    /* padding: 10px; */
+    /* margin-top: 100px; */
+    position: relative;
+    top: 80px;
+}
+#about .info{
+    margin-top: 100px;
+    padding: 10px;
+}
+#contact{
+    background-color: #fff;
+    background-image: url('images/contact.jpeg');
+    margin: 20px 350px;
+    /* justify-content: center; */
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    /* background-image: url('images/s1.jpg'); */
+    color: black;
+}
+#contact h1{
+    position: relative;
+    top: 131px;
+    right: 174px;
+    font-size: 50px;
+}
+#contact .info{
+    position: relative;
+    /* top: 131px; */
+    left: 100px;
+    /* right: 174px; */
+    /* font-size: 50px; */
+}
+#contact .info form{
+    margin-left: 200px;
+    margin-bottom: 300px;
+    background-color: rgb(63, 147, 221);
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+#contact .info form .form-control{
+    padding: 10px;
+}
+#contact .info form .form-control #Email{
+    height: 20px;
+    /* padding: 10px; */
+}
+#contact .info form .form-control #phone{
+    height: 20px;
+    /* padding: 10px; */
+}
+#contact .info form .form-control #group{
+    /* height: 20px; */
+    width: 20px;
+    /* padding: 40px; */
+}
+form input{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+form button{
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+}
+footer{
+    width: 100vw;
+    background-color: slategray;
+    color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+@media screen and (max-width: 800px) {
+  nav {
+    /* background-color: black; */
+    color: white;
+    height: 20vh;
+    width: 800px;
+    display: flex;
+    border: 0.1em solid rgb(250, 244, 244);
+    border-radius: 10px;
+    /* padding: 10px; */
+  }
+
+  nav .logo img{
+    height: 15vh;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 3px 7px;
+    /* padding:0px 10px; */
+}
+
+  nav ul {
+    display: flex;
+    /* justify-content: right; */
+    position: relative;
+    left: 344px;
+    top: 77px;
+    /* right: 1000px; */
+    list-style: none;
+    padding: 10px;
+  }
+  nav .search{
+    /* margin-right: 100px; */
+    padding:12px;
+    position: relative;
+    height: 31px;
+    top: 19px;
+    right: 80px;
+}
+
+.categorys{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 25px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px 108px;
+    justify-content: center;
+}
+#about{
+    margin: 20px 96px;
+}
+#contact{
+    margin: 20px 96px;
+}
+}
+
+@media screen and (max-width:700px) {
+    nav{
+        width: 768px;
+    }
+    .categorys{
+        margin-left: 100px;
+    }
+    .container{
+        margin-left: 100px;
+    }
+    footer{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .categorys{
+        margin-left: 139px;
+    }
+    .container{
+        margin-left: 139px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .categorys{
+        margin-left: 239px;
+    }
+    .container{
+        margin-left: 239px;
+    }
+}
+
+@media screen and (max-width:470) {
+    .categorys{
+        margin-left: 278px;
+    }
+    .container{
+        margin-left: 278px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .categorys{
+        margin-left: 304px;
+    }
+    .container{
+        margin-left: 323px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .categorys{
+        margin-left: 382px;
+    }
+    .container{
+        margin-left: 382px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    nav{
+        width: 768px;
+    }
+    .categorys{
+        margin-left: 378px;
+    }
+    .container{
+        margin-left: 378px;
+    }
+}
